@@ -1,9 +1,9 @@
 ## Overview 
-This Rust project calculates the kernel and image of a homomorphism defined as: $ \phi : \mathbb{Z} \to \mathbb{Z}_6 \quad \text{where} \quad \phi(n) = n \mod 6 $. The kernel of a homomorphism consists of all elements in the domain that map to the identity element in the codomain. In this case, the kernel is the set of all integers \( n \) such that \( \phi(n) = 0 \mod 6 \). The image is the set of all distinct outputs of the homomorphism for inputs from the domain.
+This Rust project calculates the kernel and image of a homomorphism defined as: $\phi:\mathbb{Z}\to\mathbb{Z}_6$ where $\phi(n) = n \mod 6$. The kernel of a homomorphism consists of all elements in the domain that map to the identity element in the codomain. In this case, the kernel is the set of all integers $n$ such that $\phi(n) = 0 \mod 6$. The image is the set of all distinct outputs of the homomorphism for inputs from the domain.
 
 ## Features
 
-- Computes the kernel of the homomorphism \( \phi(n) \).
+- Computes the kernel of the homomorphism $\phi(n)$.
 - Computes the image of the homomorphism.
 - Outputs the kernel with ellipses to denote its infinite nature.
 - Outputs the image in a sorted manner.
@@ -68,3 +68,10 @@ fn main() {
     let image = find_image(&domain);
     println!("Image: {:?}", image); // Show sorted image
 }
+
+## Acknowledgments
+- Rust
+### Clone the repository or copy the source code into a Rust project.
+```bash
+   git clone https://github.com/cypriansakwa/Kernel_and_Image_of_a_Homomorphism_in_Rust.git
+   cd Kernel_and_Image_of_a_Homomorphism_in_Rust
