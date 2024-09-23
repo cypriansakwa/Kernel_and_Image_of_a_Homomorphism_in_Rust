@@ -1,0 +1,6 @@
+[package]
+name = "Kernel_and_Image_of_a_Homomorphism_in_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
