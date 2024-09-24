@@ -1,6 +1,6 @@
 use std::collections::HashSet;
 
-// Define a homomorphism ϕ: Z → Z6, where ϕ(n) = n mod 6 (non-negative)
+// Define a homomorphism \u{03C6}: Z → Z6, where \u{03C6}(n) = n mod 6 (non-negative)
 fn homomorphism(n: i32) -> i32 {
     let result = n % 6;
     if result < 0 {
@@ -21,7 +21,7 @@ fn find_kernel(domain: &[i32]) -> Vec<i32> {
     kernel
 }
 
-// Find the image of the homomorphism (all distinct values of ϕ(n) mod 6)
+// Find the image of the homomorphism (all distinct values of \u{03C6}(n) mod 6)
 fn find_image(domain: &[i32]) -> Vec<i32> {
     let mut image: Vec<i32> = domain
         .iter()

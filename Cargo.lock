@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "Kernel"
+name = "Kernel_and_Image_of_a_Homomorphism_in_Rust"
 version = "0.1.0"
